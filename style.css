@@ -139,7 +139,8 @@ nav {
 }
 
 .nav__link--primary:after {
-    contain: "";
+    contain: none;
+    display: none;
     width: 0;
     height: 0;
 }
