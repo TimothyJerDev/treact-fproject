@@ -403,7 +403,7 @@ FEATURES ↓
     padding: 32px 24px;
 }
 
-.feature__img--wrapping {
+.feature__img--wrapper {
     display: flex;
     padding: 20px;
     border: 1px solid #e5e7eb;
