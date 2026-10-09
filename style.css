@@ -552,6 +552,19 @@ STEPS ↓
     max-width: 320px;
 }
 
+.steps__grid {
+    position: relative;
+    top: 178px;
+    right: 22%;
+    transform: translateX(-50%);
+    width: 10rem;
+    height: 10rem;
+    opacity: .8;
+    z-index: -10;
+    color: rgb(100, 21, 255);
+    fill: currentColor;
+}
+
 /* 
 
 VALUES ↓
