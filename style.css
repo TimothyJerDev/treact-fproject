@@ -698,7 +698,8 @@ PRICING ↓
     padding-left: 2rem;
     padding-right: 2rem;
     padding-top: 0.5rem;
-    margin-top: 2rem;
+    margin-bottom: 2rem;
+    text-align: center;
     color: rgb(26 32 44);
     box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.6) 0px 1px 2px 0px;
 }
@@ -815,6 +816,16 @@ PRICING ↓
     font-size: 0.875rem;
     text-transform: uppercase;
     letter-spacing: 0.05em;
+}
+
+.plan__button:hover {
+    transform: translate(1px, -1px);
+    box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.06) 0px 10px 10px -5px;
+}
+
+.plan:nth-child(2) .plan__button {
+    color: #6415ff;
+    background-color: #f7fafc;
 }
 /* 
 
