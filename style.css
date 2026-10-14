@@ -827,6 +827,17 @@ PRICING ↓
     color: #6415ff;
     background-color: #f7fafc;
 }
+
+.plans__blob {
+    z-index: -10;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transform: translateX(-397%) translateY(50%) scale(1) scaleY(1);
+    height: 256px;
+    width: 256px;
+    opacity: 0.25;
+}
 /* 
 
 TESTIMONIALS ↓
