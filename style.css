@@ -863,9 +863,12 @@ TESTIMONIALS ↓
 }
 
 .testimonial__rating {
-    color: rgba(246 173 85);
     margin-right: 2px;
     margin-top: 4px;
+}
+
+.fa-star {
+    color: rgba(246 173 85);
 }
 
 .testimonial__title {
@@ -924,7 +927,27 @@ TESTIMONIALS ↓
 }
 
 .testimonial__button {
-    display: flex;background: #edf2f7;
+    display: flex;
+    background: #edf2f7;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    margin: 0 12px;
+}
+
+.testimonial__button svg {
+    width: 16px;
+    height: 16px;
+}
+
+.divider {
+    margin-top: 0.75rem;
+    margin-bottom: 0.75rem;
+    border-right-width: 1px;
+    width: 0.5px;
+    background-color: #edf2f7;
+    height: 20px;
 }
 /* 
 
