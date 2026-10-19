@@ -1243,6 +1243,19 @@ MOBILE RESPONSIVENESS ↓
     .header__img {
         max-width: 512px;
     }
+    h1 {
+        font-size: 36px;
+    }
+    .header__description--para {
+        font-size: 16px;
+    }
+    .header__customers {
+        padding-right: 64px;
+    }
+    .header__img {
+        max-width: 512px;
+    }
+    
 }
 
 @media (max-width: 1024px) {
@@ -1274,6 +1287,19 @@ MOBILE RESPONSIVENESS ↓
     .header__img--wrapper {
         margin-top: 48px;
     }
+    h1 {
+        font-size: 30px;
+    }
+    .header__description--para {
+        margin: 20px 0;
+    }
+    .header__customers {
+        padding-right: 0px;
+    }
+    #feature .section__title,
+    #pricing .section__title {
+        font-size: 48px;
+    }
     footer {
         padding: 80px 32px;
     }
@@ -1304,5 +1330,30 @@ MOBILE RESPONSIVENESS ↓
     }
     main {
         margin-bottom: 80px;
+    }
+    .header__email {
+        flex-direction: column;
+        height: auto;
+    }
+    .header__email--input {
+        position: static;
+        padding: 16px 0;
+        padding-left: 32px;
+        line-height: 1.5;
+    }
+    .header__email--btn {
+        width: 100%;
+        padding: 16px 0;
+        margin: 16px 0;
+        margin-bottom: 0;
+        line-height: 1.5;
+    }
+    .header__customer--title {
+        font-size: 14px;
+        letter-spacing: 0.05em;
+    }
+    #feature .section__title,
+    #pricing .section__title {
+        font-size: 36px;
     }
 }
