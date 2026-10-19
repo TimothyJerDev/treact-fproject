@@ -84,6 +84,11 @@ img {
     transition: all 300ms ease;
 }
 
+#features .section__title,
+#pricing .section__title {
+    text-align: center;
+}
+
 /* 
 
 NAVBAR ↓
@@ -573,8 +578,8 @@ STEPS ↓
 
 .steps__grid {
     position: relative;
-    top: 178px;
-    right: 22%;
+    bottom: 100px;
+    left: 50%;
     transform: translateX(-50%);
     width: 10rem;
     height: 10rem;
@@ -1255,6 +1260,11 @@ MOBILE RESPONSIVENESS ↓
     .header__img {
         max-width: 512px;
     }
+    .steps__grid {
+        height: 5rem;
+        width: 5rem;
+        bottom: -50px;
+    }
     
 }
 
@@ -1296,9 +1306,35 @@ MOBILE RESPONSIVENESS ↓
     .header__customers {
         padding-right: 0px;
     }
-    #feature .section__title,
+    #features .section__title,
     #pricing .section__title {
         font-size: 48px;
+    }
+    .section__para {
+        font-size: 16px;
+    }
+    .features {
+        max-width: 768px;
+    }
+    .feature {
+        width: calc(50%);
+    }
+    .feature__row {
+        padding: 32px 8px;
+        margin: 0 16px;
+    }
+    .feature__title {
+        line-height: 1;
+    }
+    .feature__para {
+        max-width: none;
+    }
+    .quality__description {
+        margin-top: 0;
+        padding-right: 48px;
+    }
+    .section__title {
+        font-size: 36px;
     }
     footer {
         padding: 80px 32px;
@@ -1318,6 +1354,34 @@ MOBILE RESPONSIVENESS ↓
     #pricing .row {
         margin-top: 40px;
     }
+    .section__para {
+        font-size: 14px;
+    }
+    .features {
+        justify-content: center;
+    }
+    .feature {
+        width: auto;
+        max-width: 384px;
+    }
+    .quality__description, .quality__img--wrapper, .steps__description, .steps__img--wrapper, .values__description, .values__img, .testimonials__description, .testimonial__img {
+        width: 100%;
+        max-width: 448px;
+    }
+    .quality__description, .steps__description, .values__description, .testimonials__description {
+        padding: 0;
+        margin-top: 64px;
+        text-align: center;
+    }
+    .step {
+        flex-direction: column;
+        align-items: center;
+    }
+    .step__description {
+        margin-top: 12px;
+        margin-left: 0;
+    }
+   
 }
 
 @media(max-width: 640px) {
@@ -1352,8 +1416,30 @@ MOBILE RESPONSIVENESS ↓
         font-size: 14px;
         letter-spacing: 0.05em;
     }
-    #feature .section__title,
+    #features .section__title,
     #pricing .section__title {
         font-size: 36px;
+    }
+    .feature__row {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .feature__text {
+        margin-left: 0px;
+        margin-top: 16px;
+    }
+    .feature__title {
+        letter-spacing: 0.025em;
+    }
+    .feature__para {
+        margin-top: 4px;
+        line-height: 2;
+    }
+    .section__title {
+        font-size: 30px;
+    }
+    .steps__list {
+        margin-top: 48px;
     }
 }
