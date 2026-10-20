@@ -1385,6 +1385,7 @@ MOBILE RESPONSIVENESS ↓
     #quality .row,
     #values .row {
         flex-direction: column-reverse;
+        align-items: center;
     }
     #steps .row,
     #testimonials .row {
@@ -1414,6 +1415,13 @@ MOBILE RESPONSIVENESS ↓
         padding: 0;
         margin-top: 64px;
         text-align: center;
+    }
+    .quality__description {
+        margin-right: 0px;
+    }
+    .quality__img--wrapper {
+        margin-left: auto;
+        margin-right: auto;
     }
     .step {
         flex-direction: column;
